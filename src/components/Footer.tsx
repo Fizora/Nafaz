@@ -14,6 +14,7 @@ import {
   LucideCalendar,
   LucideSparkles,
 } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks = {
   Layanan: [
@@ -87,7 +88,14 @@ export default function Footer() {
             <div className="mb-8">
               <div className="flex items-center gap-2 mb-4">
                 <div className="p-1 bg-white/10 rounded-lg">
-                  <img src={"/logo.png"} className="size-10" />
+                  <Image
+                    src="/logo.png"
+                    alt="Nafaz Dev Logo"
+                    width={40}
+                    height={40}
+                    className="rounded-xl object-cover"
+                    priority
+                  />
                 </div>
                 <div className="text-2xl font-bold">
                   Nafaz<span className="text-amber-400">.</span>
