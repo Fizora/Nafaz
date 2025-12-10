@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nafaz Dev",
+  title: "Development & Automation Solutions | Nafaz Dev",
   description:
     "Membangun platform otomatisasi terbaik untuk UMKM F&B di Indonesia",
 };
