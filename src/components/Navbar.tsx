@@ -224,7 +224,7 @@ export default function Navbar() {
                       {item.icon}
                     </div>
                     <div className="flex-1 text-left">
-                      <div className="font-semibold text-lg">{item.label}</div>
+                      <div className="font-semibold ">{item.label}</div>
                       {item.id === "home" && (
                         <div className="text-sm opacity-70">Halaman utama</div>
                       )}
@@ -251,7 +251,7 @@ export default function Navbar() {
 
               {/* CTA Section */}
               <div className="mt-12 p-6 bg-linear-to-br from-blue-50/70 to-purple-50/70 rounded-2xl border border-blue-100/50 backdrop-blur-sm">
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
+                <h3 className=" font-bold text-slate-900 mb-2">
                   Siap Membangun Bersama?
                 </h3>
                 <p className="text-slate-600 text-sm mb-6">
